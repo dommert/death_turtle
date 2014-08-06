@@ -3,7 +3,6 @@ from flask import Flask
 # flask-turboduck bindings
 from flask_turboduck.db import Database
 
-
 app = Flask(__name__)
 app.config.from_object('config.Configuration')
 
